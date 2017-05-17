@@ -7,7 +7,7 @@ Convert any base to base-ten and visa versa.
 The library needs to be referenced by the project.
 Using it is quite straight forward.
 
-#### Base-N -> Base-10
+#### Base-10 -> Base-N
 ```
 var input = "657984635468794654687654686484684987445135121111215534"; // base 10
 var charset = "0123456789ABCDEF"; // base 16 charset
@@ -16,7 +16,7 @@ var output = BaseConverter.ToBase(charset, input); // base 16
 >> 6DEA35B676A77A9025BA2A8289C40CEAEA7FD88EE6DAE
 ```
 
-#### Base-10 -> Base-N
+#### Base-N -> Base-10
 ```
 var input = "6DEA35B676A77A9025BA2A8289C40CEAEA7FD88EE6DAE"; // base 16
 var charset = "0123456789ABCDEF"; // base 16 charset
